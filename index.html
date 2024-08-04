@@ -18,7 +18,6 @@
         function sendName() {
             const name = document.getElementById('nameInput').value;
             if (name) {
-                // Redirect to the greeting page with the name as a query parameter
                 window.location.href = `greeting.html?name=${encodeURIComponent(name)}`;
             } else {
                 alert("Please enter your name.");
